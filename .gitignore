@@ -64,3 +64,10 @@ secrets.json
 # Environment files
 .env
 *.env
+/backend/.vs/backend
+
+
+# Ignore all files in that folder but keep the folder structure
+# PDF files
+backend/backend/documents/pdfs/*.pdf
+backend/backend/documents/pdfs/*.PDF
