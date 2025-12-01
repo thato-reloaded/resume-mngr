@@ -1,4 +1,4 @@
-@import "./mixins";
+@use "./mixins" as *;
 
 *,
 *::before,
@@ -31,7 +31,7 @@ ul {
 }
 
 .content {
-    @include d-flex(column, flex-start center);
+    @include d-flex(column, flex-start, center);
     gap: 2rem;
 }
 
